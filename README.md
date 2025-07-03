@@ -30,9 +30,8 @@ GET http://localhost:8081/order/<order_uid> должен вернуть JSON с 
 Интерфейс отображает данные понятным образом после ввода ID и нажатия кнопки.
 
 Инструкция:
-docker-compose build
-docker-compose up -d
-
+- docker-compose build
+- docker-compose up -d
 - в docker-контейнере producerа ~через 5 секунд запускаем producer заново
 - заходим http://localhost:8080/
 - вводим order001
